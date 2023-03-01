@@ -7,7 +7,8 @@ WORKDIR /app
 #COPY app-py . 
 
 #besser: eigenen Ordner und alles aus diesem Ordner in aktuelles Work-verzeichnis (/app) kopieren:
-COPY src/*/ .
+COPY src/requirements.txt .
+COPY src/app.py .
 
 RUN pip3 install -r requirements.txt
 

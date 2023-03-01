@@ -2,7 +2,8 @@ FROM python:3.8
 
 WORKDIR /app
 
-COPY src/*/ .
+COPY src/requirements.txt .
+COPY src/app.py .
 
 RUN pip3 install -r requirements.txt
 
