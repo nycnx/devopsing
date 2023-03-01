@@ -1,0 +1,7 @@
+version: '1'
+services:
+    1bflask-container:
+        image: docnyx.azurecr.io/flasks/first_flask:latest
+    2bflask-container:
+        image: docnyx.azurecr.io/flasks/second_flask:latest
+
